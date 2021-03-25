@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth !important;
+  }
+
+#intro{
+  font-size: 30px;
+}
+
+/*-- BOX1 --*/
+
+#box{
+  height: 15px;
+  background-color: lightblue;
+}
+
+#box1{
+  height: 100vh;
+  background-color: lightblue;
+}
+
+#box1 h1{
+  text-align: center;
+  padding-top: 200px;
+}
+
+/*-- BOX2 --*/
+
+#box2{
+  height: 100vh;
+  background-color: rgb(190, 190, 190);
+  padding-top: 100px;
+}
+
+.wrapper{
+  padding: 1rem;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.cards{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(132, 132, 141, 0.37);
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.cards h4, p{
+  text-align: center;
+  padding: .5rem;
+  line-height: 1.8;
+}
+
+#fly-bounce{
+  margin-left: 300px;
+}
+
+/*-- BOX3 --*/
+
+#box3{
+  height: 100vh;
+  background-color: lightyellow ;
+}
+
+/*-- BOX4 --*/
+
+#box4{
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.loop-wrapper{
+  display: flex;
+}
+
+
+#fly-loop{
+  text-align: center;
+}
+
+.loop-img-container{
+  width: 100%;
+  height: auto;
+}
+
+.loop-img-container img{
+  width: 40%;
+}
+
+/*-- BOX5 --*/
+
+#box5{
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+
+#mitElement{
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+#minKvadrat{
+  margin-left: -400px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/*-- SVGS --*/
+
+.img-container img{
+  width: 30%;
+}
+
+img{
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+#fly{
+  margin-left: -40%;
+  position: relative;
+}
+
+#fly-stall{
+margin: 0 auto;
+}
+
+
+#sky{
+  position: absolute;
+  top: 0px;
+}
+
+#sky-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#sky-bottom{
+  position: absolute;
+}
+
+#sky-bottom1{
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
+
